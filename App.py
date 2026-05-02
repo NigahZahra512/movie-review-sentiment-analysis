@@ -7,7 +7,8 @@ from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 import nltk
-
+nltk.download('punkt', quiet=True)
+nltk.download('punkt_tab', quiet=True)
 # --- MOVE THIS TO THE TOP ---
 # This MUST be the first st. command the code sees
 st.set_page_config(page_title="Movie Sentiment AI", page_icon="🎬")
